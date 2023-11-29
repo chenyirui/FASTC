@@ -1,0 +1,22 @@
+VoxelFeatureEncoder:
+  class: PillarFeatureNet
+  opt: Adam
+  opt_kwargs:
+    lr: 2.0e-4
+    eps: 1.0e-5
+
+MiddleSparseEncoder:
+  class: PointPillarsScatter
+  opt: none  # no learnable parameters
+
+
+BEVClassifier:
+  class: Traver_Completion
+  net_kwargs: 
+    num_classes: 5
+    num_input_feature: 128
+  opt: SGD
+  opt_kwargs:
+    lr: 0.05
+    momentum: 0.9
+    weight_decay: 0.001

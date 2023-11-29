@@ -1,0 +1,21 @@
+VoxelFeatureEncoder:
+  class: PillarFeatureNetMultiStep
+  opt: Adam
+  opt_kwargs:
+    lr: 2.0e-4
+    eps: 1.0e-5
+
+MiddleSparseEncoder:
+  class:  PointPillarsScatterMultiStep
+  opt: none  # no learnable parameters
+
+BEVClassifier:
+  class: Traver_Completion_Fusion 
+  net_kwargs: 
+    num_classes: 5
+    num_input_feature: 128
+    aggregation_type: 'pre'
+  opt: Adam
+  opt_kwargs:
+    lr: 3.0e-4
+    eps: 1.0e-7
