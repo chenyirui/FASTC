@@ -1,7 +1,7 @@
 # FASTC
 Code repository for “FASTC: A Fast Attentional Framework  for Semantic Traversability Classification Using Point Cloud“
 ## TODOs
-- [-] source code upload
+- [x] source code upload
 - [ ] clean up the code
 - [ ] Instructions on training and inference
 ## Acknowledgements
