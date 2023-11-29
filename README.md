@@ -4,7 +4,7 @@ Code repository for “FASTC: A Fast Attentional Framework  for Semantic Travers
 - [ ] source code upload
 - [ ] Instructions on training and inference
 ## Acknowledgements
-Thanks for the public repositories:
+Our code is heavily based on the following public repositories, Thanks for the excellent work:
 
 - [BEVNet](https://github.com/JHLee0513/semantic_bevnet)
 - [RegSeg](https://github.com/RolandGao/RegSeg)
