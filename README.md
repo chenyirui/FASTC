@@ -63,9 +63,7 @@ python test_single.py --model_file /path/to/model --test_env kitti4
 ## TODOs
 
 \- [x] Source code upload
-
 \- [ ] Clean up the code
-
 \- [x] Instructions on training and inference
 
 ## Acknowledgements
